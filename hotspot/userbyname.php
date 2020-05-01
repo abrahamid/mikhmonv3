@@ -158,7 +158,7 @@ Password : *" . $upass . "* %0A
 " . $watlimit . "
 " . $wadlimit . "
 " . $waprice . " %0A
-Login : *http://" . $dnsname . "* %0A
+Login : http://" . $dnsname . "/login?username=".$uname."%26password=".$upass." %0ACek Status Penggunaan di: http://" . $dnsname . "/status%0A
 ---------
 ";
   $shareWAVC = "
